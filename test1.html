@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+.fun-img {
+    width: 258px;
+    height: 258px;
+    position: absolute;
+    top: -30px;
+    left: 248px;
+    background-repeat: no-repeat;
+    background: url("http://c1.mifile.cn/f/i/2014/cn/goods/mi4/mb/fun-shadow-3.png") no-repeat center;
+    -webkit-animation: fun-animatedBackground 2s linear infinite;
+    -moz-animation: fun-animatedBackground 2s linear infinite;
+    animation: fun-animatedBackground 2s linear infinite;
+}
+
+.animation .shadow {
+    width: 516px;
+    height: 516px;
+    position: absolute;
+    top: -162px;
+    left: 36px
+}
+
+@-webkit-keyframes fun-animatedBackground {
+    0% {
+        background: url("http://c1.mifile.cn/f/i/2014/cn/goods/mi4/mb/fun-shadow-1.png") no-repeat center
+    }
+    
+    50% {
+        background: url("http://c1.mifile.cn/f/i/2014/cn/goods/mi4/mb/fun-shadow-2.png") no-repeat center
+    }
+    
+    100% {
+        background: url("http://c1.mifile.cn/f/i/2014/cn/goods/mi4/mb/fun-shadow-3.png") no-repeat center
+    }
+}
+@-moz-keyframes fun-animatedBackground {
+    0% {
+        background: url("http://c1.mifile.cn/f/i/2014/cn/goods/mi4/mb/fun-shadow-1.png") no-repeat center
+    }
+    
+    50% {
+        background: url("http://c1.mifile.cn/f/i/2014/cn/goods/mi4/mb/fun-shadow-2.png") no-repeat center
+    }
+    
+    100% {
+        background: url("http://c1.mifile.cn/f/i/2014/cn/goods/mi4/mb/fun-shadow-3.png") no-repeat center
+    }
+}
+@keyframes fun-animatedBackground {
+    0% {
+        background: url("http://c1.mifile.cn/f/i/2014/cn/goods/mi4/mb/fun-shadow-1.png") no-repeat center
+    }
+    
+    50% {
+        background: url("http://c1.mifile.cn/f/i/2014/cn/goods/mi4/mb/fun-shadow-2.png") no-repeat center
+    }
+    
+    100% {
+        background: url("http://c1.mifile.cn/f/i/2014/cn/goods/mi4/mb/fun-shadow-3.png") no-repeat center
+    }
+}
+.empty{
+    width: 100px;
+    height: 5000px;
+}
+
+</style>
+
+<body>
+<div class="empty"></div>
+
+    <div class="fun-img">
+    </div>
+
+</html>
